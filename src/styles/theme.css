@@ -1,0 +1,105 @@
+/* ============================================================
+   efly theme
+   - Light: :root defaults
+   - Dark:  html.dark overrides (driven by settings or OS)
+   ============================================================ */
+
+/* ---- light (default) ---- */
+:root {
+  --efly-bg:           #f0f2f5;
+  --efly-surface:      #ffffff;
+  --efly-surface-alt:  #fafafa;
+  --efly-border:       #e4e7ed;
+  --efly-border-light: #f2f3f5;
+
+  --efly-text:         #303133;
+  --efly-text-secondary: #909399;
+  --efly-text-muted:   #c0c4cc;
+
+  --efly-primary:      #409eff;
+  --efly-primary-bg:   #ecf5ff;
+  --efly-primary-light:#e6f0fa;
+
+  --efly-success:      #67c23a;
+  --efly-warning-bg:   #fdf6ec;
+  --efly-warning-border:#faecd8;
+  --efly-warning-icon: #e6a23c;
+  --efly-danger:       #f56c6c;
+
+  --efly-chrome:            #e0e0e0;
+  --efly-chrome-logo:       #2c2c2c;
+  --efly-chrome-text:       #555555;
+  --efly-chrome-muted:      #888888;
+  --efly-chrome-btn-hover:  #d0d0d0;
+
+  --efly-hover:        #f5f7fa;
+  --efly-card-shadow:  0 1px 3px rgba(0,0,0,.06);
+}
+
+/* ---- dark — triggered by html.dark class ---- */
+html.dark {
+  --efly-bg:           #141414;
+  --efly-surface:      #1e1e1e;
+  --efly-surface-alt:  #252525;
+  --efly-border:       #333333;
+  --efly-border-light: #2a2a2a;
+
+  --efly-text:         #e0e0e0;
+  --efly-text-secondary: #888888;
+  --efly-text-muted:   #555555;
+
+  --efly-primary:      #409eff;
+  --efly-primary-bg:   #1a2a3a;
+  --efly-primary-light:#1a2535;
+
+  --efly-success:      #67c23a;
+  --efly-warning-bg:   #2a2418;
+  --efly-warning-border:#3a3018;
+  --efly-warning-icon: #e6a23c;
+  --efly-danger:       #f56c6c;
+
+  --efly-chrome:            #1a1a1a;
+  --efly-chrome-logo:       #ffffff;
+  --efly-chrome-text:       #aaaaaa;
+  --efly-chrome-muted:      #666666;
+  --efly-chrome-btn-hover:  #333333;
+
+  --efly-hover:        #2a2a2a;
+  --efly-card-shadow:  0 1px 3px rgba(0,0,0,.3);
+
+  color-scheme: dark;
+}
+
+/* ---- system default: auto-apply dark before JS loads ---- */
+@media (prefers-color-scheme: dark) {
+  html:not(.light) {
+    --efly-bg:           #141414;
+    --efly-surface:      #1e1e1e;
+    --efly-surface-alt:  #252525;
+    --efly-border:       #333333;
+    --efly-border-light: #2a2a2a;
+
+    --efly-text:         #e0e0e0;
+    --efly-text-secondary: #888888;
+    --efly-text-muted:   #555555;
+
+    --efly-primary:      #409eff;
+    --efly-primary-bg:   #1a2a3a;
+    --efly-primary-light:#1a2535;
+
+    --efly-success:      #67c23a;
+    --efly-warning-bg:   #2a2418;
+    --efly-warning-border:#3a3018;
+    --efly-warning-icon: #e6a23c;
+    --efly-danger:       #f56c6c;
+
+    --efly-chrome:            #1a1a1a;
+    --efly-chrome-logo:       #ffffff;
+    --efly-chrome-text:       #aaaaaa;
+    --efly-chrome-muted:      #666666;
+    --efly-chrome-btn-hover:  #333333;
+
+    --efly-hover:        #2a2a2a;
+    --efly-card-shadow:  0 1px 3px rgba(0,0,0,.3);
+  }
+}

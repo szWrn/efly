@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EF7AB2F0-A38D-3045-8E0A-B4DDB17A5E76}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>efly_lib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\efly\src-lib\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">efly_lib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">efly_core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\efly\src-lib\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">efly_lib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">efly_core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\efly\src-lib\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">efly_lib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">efly_core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\efly\src-lib\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">efly_lib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">efly_core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\efly\src-lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/efly/src-lib/vcpkg_installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;EFL_API_EXPORTS;_WIN32_WINNT=0x0A00;CMAKE_INTDIR="Debug";efly_lib_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;EFL_API_EXPORTS;_WIN32_WINNT=0x0A00;CMAKE_INTDIR=\"Debug\";efly_lib_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\efly\src-lib\include;D:\efly\src-lib\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\efly\src-lib\include;D:\efly\src-lib\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/efly/src-lib/build/Debug/efly_core.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/efly/src-lib/build/Debug/efly_core.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\efly\src-lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/efly/src-lib/vcpkg_installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;EFL_API_EXPORTS;_WIN32_WINNT=0x0A00;CMAKE_INTDIR="Release";efly_lib_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;EFL_API_EXPORTS;_WIN32_WINNT=0x0A00;CMAKE_INTDIR=\"Release\";efly_lib_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\efly\src-lib\include;D:\efly\src-lib\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\efly\src-lib\include;D:\efly\src-lib\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/efly/src-lib/build/Release/efly_core.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/efly/src-lib/build/Release/efly_core.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\efly\src-lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/efly/src-lib/vcpkg_installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;EFL_API_EXPORTS;_WIN32_WINNT=0x0A00;CMAKE_INTDIR="MinSizeRel";efly_lib_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;EFL_API_EXPORTS;_WIN32_WINNT=0x0A00;CMAKE_INTDIR=\"MinSizeRel\";efly_lib_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\efly\src-lib\include;D:\efly\src-lib\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\efly\src-lib\include;D:\efly\src-lib\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/efly/src-lib/build/MinSizeRel/efly_core.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/efly/src-lib/build/MinSizeRel/efly_core.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\efly\src-lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/efly/src-lib/vcpkg_installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;EFL_API_EXPORTS;_WIN32_WINNT=0x0A00;CMAKE_INTDIR="RelWithDebInfo";efly_lib_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;EFL_API_EXPORTS;_WIN32_WINNT=0x0A00;CMAKE_INTDIR=\"RelWithDebInfo\";efly_lib_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\efly\src-lib\include;D:\efly\src-lib\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\efly\src-lib\include;D:\efly\src-lib\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/efly/src-lib/build/RelWithDebInfo/efly_core.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/efly/src-lib/build/RelWithDebInfo/efly_core.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\efly\src-lib\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/efly/src-lib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/efly/src-lib -BD:/efly/src-lib/build --check-stamp-file D:/efly/src-lib/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CMake\share\cmake-4.4\Modules\CMakeCCompiler.cmake.in;D:\CMake\share\cmake-4.4\Modules\CMakeCCompilerABI.c;D:\CMake\share\cmake-4.4\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-4.4\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineCCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineCompilerSupport.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeFindDependencyMacro.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeParseLibraryArchitecture.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-4.4\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeTestCCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\CrayClang-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Diab-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\OrangeC-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\PellesC-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Renesas-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\TIClang-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-4.4\Modules\Internal\CMakeCLinkerInformation.cmake;D:\CMake\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\CMake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\CMake\share\cmake-4.4\Modules\Internal\CMakeDetermineLinkerId.cmake;D:\CMake\share\cmake-4.4\Modules\Internal\CMakeInspectCLinker.cmake;D:\CMake\share\cmake-4.4\Modules\Internal\CMakeInspectCXXLinker.cmake;D:\CMake\share\cmake-4.4\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-4.4\Modules\Linker\MSVC-C.cmake;D:\CMake\share\cmake-4.4\Modules\Linker\MSVC-CXX.cmake;D:\CMake\share\cmake-4.4\Modules\Linker\MSVC.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;D:\efly\src-lib\build\CMakeFiles\4.4.0-rc3\CMakeCCompiler.cmake;D:\efly\src-lib\build\CMakeFiles\4.4.0-rc3\CMakeCXXCompiler.cmake;D:\efly\src-lib\build\CMakeFiles\4.4.0-rc3\CMakeRCCompiler.cmake;D:\efly\src-lib\build\CMakeFiles\4.4.0-rc3\CMakeSystem.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost\BoostConfig.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost\BoostConfigVersion.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_assert\boost_assert-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_assert\boost_assert-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_assert\boost_assert-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_compat\boost_compat-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_compat\boost_compat-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_compat\boost_compat-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_config\boost_config-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_config\boost_config-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_config\boost_config-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_headers\boost_headers-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_headers\boost_headers-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_headers\boost_headers-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_mp11\boost_mp11-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_mp11\boost_mp11-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_mp11\boost_mp11-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_predef\boost_predef-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_predef\boost_predef-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_predef\boost_predef-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_system\boost_system-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_system\boost_system-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_system\boost_system-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_throw_exception\boost_throw_exception-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_throw_exception\boost_throw_exception-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_throw_exception\boost_throw_exception-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_variant2\boost_variant2-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_variant2\boost_variant2-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_variant2\boost_variant2-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_winapi\boost_winapi-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_winapi\boost_winapi-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_winapi\boost_winapi-targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\efly\src-lib\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/efly/src-lib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/efly/src-lib -BD:/efly/src-lib/build --check-stamp-file D:/efly/src-lib/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CMake\share\cmake-4.4\Modules\CMakeCCompiler.cmake.in;D:\CMake\share\cmake-4.4\Modules\CMakeCCompilerABI.c;D:\CMake\share\cmake-4.4\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-4.4\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineCCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineCompilerSupport.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeFindDependencyMacro.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeParseLibraryArchitecture.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-4.4\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeTestCCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\CrayClang-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Diab-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\OrangeC-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\PellesC-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Renesas-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\TIClang-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-4.4\Modules\Internal\CMakeCLinkerInformation.cmake;D:\CMake\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\CMake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\CMake\share\cmake-4.4\Modules\Internal\CMakeDetermineLinkerId.cmake;D:\CMake\share\cmake-4.4\Modules\Internal\CMakeInspectCLinker.cmake;D:\CMake\share\cmake-4.4\Modules\Internal\CMakeInspectCXXLinker.cmake;D:\CMake\share\cmake-4.4\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-4.4\Modules\Linker\MSVC-C.cmake;D:\CMake\share\cmake-4.4\Modules\Linker\MSVC-CXX.cmake;D:\CMake\share\cmake-4.4\Modules\Linker\MSVC.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;D:\efly\src-lib\build\CMakeFiles\4.4.0-rc3\CMakeCCompiler.cmake;D:\efly\src-lib\build\CMakeFiles\4.4.0-rc3\CMakeCXXCompiler.cmake;D:\efly\src-lib\build\CMakeFiles\4.4.0-rc3\CMakeRCCompiler.cmake;D:\efly\src-lib\build\CMakeFiles\4.4.0-rc3\CMakeSystem.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost\BoostConfig.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost\BoostConfigVersion.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_assert\boost_assert-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_assert\boost_assert-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_assert\boost_assert-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_compat\boost_compat-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_compat\boost_compat-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_compat\boost_compat-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_config\boost_config-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_config\boost_config-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_config\boost_config-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_headers\boost_headers-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_headers\boost_headers-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_headers\boost_headers-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_mp11\boost_mp11-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_mp11\boost_mp11-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_mp11\boost_mp11-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_predef\boost_predef-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_predef\boost_predef-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_predef\boost_predef-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_system\boost_system-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_system\boost_system-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_system\boost_system-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_throw_exception\boost_throw_exception-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_throw_exception\boost_throw_exception-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_throw_exception\boost_throw_exception-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_variant2\boost_variant2-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_variant2\boost_variant2-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_variant2\boost_variant2-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_winapi\boost_winapi-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_winapi\boost_winapi-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_winapi\boost_winapi-targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\efly\src-lib\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/efly/src-lib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/efly/src-lib -BD:/efly/src-lib/build --check-stamp-file D:/efly/src-lib/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CMake\share\cmake-4.4\Modules\CMakeCCompiler.cmake.in;D:\CMake\share\cmake-4.4\Modules\CMakeCCompilerABI.c;D:\CMake\share\cmake-4.4\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-4.4\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineCCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineCompilerSupport.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeFindDependencyMacro.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeParseLibraryArchitecture.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-4.4\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeTestCCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\CrayClang-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Diab-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\OrangeC-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\PellesC-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Renesas-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\TIClang-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-4.4\Modules\Internal\CMakeCLinkerInformation.cmake;D:\CMake\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\CMake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\CMake\share\cmake-4.4\Modules\Internal\CMakeDetermineLinkerId.cmake;D:\CMake\share\cmake-4.4\Modules\Internal\CMakeInspectCLinker.cmake;D:\CMake\share\cmake-4.4\Modules\Internal\CMakeInspectCXXLinker.cmake;D:\CMake\share\cmake-4.4\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-4.4\Modules\Linker\MSVC-C.cmake;D:\CMake\share\cmake-4.4\Modules\Linker\MSVC-CXX.cmake;D:\CMake\share\cmake-4.4\Modules\Linker\MSVC.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;D:\efly\src-lib\build\CMakeFiles\4.4.0-rc3\CMakeCCompiler.cmake;D:\efly\src-lib\build\CMakeFiles\4.4.0-rc3\CMakeCXXCompiler.cmake;D:\efly\src-lib\build\CMakeFiles\4.4.0-rc3\CMakeRCCompiler.cmake;D:\efly\src-lib\build\CMakeFiles\4.4.0-rc3\CMakeSystem.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost\BoostConfig.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost\BoostConfigVersion.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_assert\boost_assert-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_assert\boost_assert-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_assert\boost_assert-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_compat\boost_compat-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_compat\boost_compat-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_compat\boost_compat-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_config\boost_config-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_config\boost_config-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_config\boost_config-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_headers\boost_headers-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_headers\boost_headers-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_headers\boost_headers-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_mp11\boost_mp11-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_mp11\boost_mp11-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_mp11\boost_mp11-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_predef\boost_predef-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_predef\boost_predef-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_predef\boost_predef-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_system\boost_system-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_system\boost_system-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_system\boost_system-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_throw_exception\boost_throw_exception-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_throw_exception\boost_throw_exception-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_throw_exception\boost_throw_exception-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_variant2\boost_variant2-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_variant2\boost_variant2-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_variant2\boost_variant2-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_winapi\boost_winapi-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_winapi\boost_winapi-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_winapi\boost_winapi-targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\efly\src-lib\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/efly/src-lib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/efly/src-lib -BD:/efly/src-lib/build --check-stamp-file D:/efly/src-lib/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CMake\share\cmake-4.4\Modules\CMakeCCompiler.cmake.in;D:\CMake\share\cmake-4.4\Modules\CMakeCCompilerABI.c;D:\CMake\share\cmake-4.4\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-4.4\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineCCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineCompilerSupport.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeFindDependencyMacro.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeParseLibraryArchitecture.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-4.4\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeTestCCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-4.4\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\CrayClang-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Diab-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\OrangeC-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\PellesC-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Renesas-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\TIClang-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-4.4\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-4.4\Modules\Internal\CMakeCLinkerInformation.cmake;D:\CMake\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\CMake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\CMake\share\cmake-4.4\Modules\Internal\CMakeDetermineLinkerId.cmake;D:\CMake\share\cmake-4.4\Modules\Internal\CMakeInspectCLinker.cmake;D:\CMake\share\cmake-4.4\Modules\Internal\CMakeInspectCXXLinker.cmake;D:\CMake\share\cmake-4.4\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-4.4\Modules\Linker\MSVC-C.cmake;D:\CMake\share\cmake-4.4\Modules\Linker\MSVC-CXX.cmake;D:\CMake\share\cmake-4.4\Modules\Linker\MSVC.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;D:\efly\src-lib\build\CMakeFiles\4.4.0-rc3\CMakeCCompiler.cmake;D:\efly\src-lib\build\CMakeFiles\4.4.0-rc3\CMakeCXXCompiler.cmake;D:\efly\src-lib\build\CMakeFiles\4.4.0-rc3\CMakeRCCompiler.cmake;D:\efly\src-lib\build\CMakeFiles\4.4.0-rc3\CMakeSystem.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost\BoostConfig.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost\BoostConfigVersion.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_assert\boost_assert-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_assert\boost_assert-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_assert\boost_assert-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_compat\boost_compat-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_compat\boost_compat-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_compat\boost_compat-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_config\boost_config-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_config\boost_config-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_config\boost_config-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_headers\boost_headers-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_headers\boost_headers-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_headers\boost_headers-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_mp11\boost_mp11-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_mp11\boost_mp11-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_mp11\boost_mp11-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_predef\boost_predef-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_predef\boost_predef-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_predef\boost_predef-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_system\boost_system-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_system\boost_system-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_system\boost_system-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_throw_exception\boost_throw_exception-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_throw_exception\boost_throw_exception-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_throw_exception\boost_throw_exception-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_variant2\boost_variant2-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_variant2\boost_variant2-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_variant2\boost_variant2-targets.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_winapi\boost_winapi-config-version.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_winapi\boost_winapi-config.cmake;D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost_winapi\boost_winapi-targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\efly\src-lib\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\efly\src-lib\src\dll_main.cpp" />
+    <ClCompile Include="D:\efly\src-lib\src\udp_server.cpp" />
+    <ClCompile Include="D:\efly\src-lib\src\protocol_handler.cpp" />
+    <ClCompile Include="D:\efly\src-lib\src\transfer_manager.cpp" />
+    <ClCompile Include="D:\efly\src-lib\src\peer_discovery.cpp" />
+    <ClCompile Include="D:\efly\src-lib\src\packet_buffer.cpp" />
+    <ClCompile Include="D:\efly\src-lib\src\file_io.cpp" />
+    <ClInclude Include="D:\efly\src-lib\include\efly\efly_api.h" />
+    <ClInclude Include="D:\efly\src-lib\include\efly\efly_types.h" />
+    <ClInclude Include="D:\efly\src-lib\include\efly\udp_server.h" />
+    <ClInclude Include="D:\efly\src-lib\include\efly\protocol_handler.h" />
+    <ClInclude Include="D:\efly\src-lib\include\efly\transfer_manager.h" />
+    <ClInclude Include="D:\efly\src-lib\include\efly\peer_discovery.h" />
+    <ClInclude Include="D:\efly\src-lib\include\efly\packet_buffer.h" />
+    <ClInclude Include="D:\efly\src-lib\include\efly\file_io.h" />
+    <Natvis Include="D:\efly\src-lib\vcpkg_installed\x64-windows\share\boost-1.91.0\assert\boost_assert.natvis">
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\efly\src-lib\build\ZERO_CHECK.vcxproj">
+      <Project>{7EE5D776-9AFB-336A-AEA4-AEDFBF00ACB2}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

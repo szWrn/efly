@@ -1,0 +1,11 @@
+[
+    {
+        "version": "1.0.0",
+        "url": [
+            "https://github.com/szWrn/efly/releases/download/v1.0.0/efly-v1.0.0-win-x64.exe",
+            "https://gitee.com/szWrn/efly/releases/download/v1.0.0/efly-v1.0.0-win-x64.exe"
+        ],
+        "priority": "warn",
+        "changelog": "The first version of eFly, which is a simple and fast download manager. It supports multi-threaded downloads, pause/resume, and more."
+    }
+]

@@ -1,0 +1,1534 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/CMake/share/cmake-4.4/Modules/"
+    found: "D:/CMake/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "D:\\flutter_windows_3.44.2-stable\\flutter\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\vcpkg"
+        - "D:\\CMake\\bin"
+        - "D:\\ninja-win"
+        - "C:\\Users\\16850\\.cargo\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Trae CN\\bin"
+        - "C:\\Users\\16850\\.local\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Python313"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\16850\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\16850\\AppData\\Roaming\\npm"
+        - "C:\\tools\\dart-sdk\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Pandoc"
+        - "D:\\AIoT IDE\\bin"
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.40+3e7442088
+      鐢熸垚鍚姩鏃堕棿涓?2026/7/6 0:16:42銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\efly\\src-lib\\tools\\build\\CMakeFiles\\4.4.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdC.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\efly\\src-lib\\tools\\build\\CMakeFiles\\4.4.0-rc3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淒:\\efly\\src-lib\\tools\\build\\CMakeFiles\\4.4.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:00.73
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/efly/src-lib/tools/build/CMakeFiles/4.4.0-rc3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:102 (__resolve_linker_path)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/16850/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "D:/flutter_windows_3.44.2-stable/flutter/bin/"
+      - "D:/mingw64/bin/"
+      - "D:/vcpkg/"
+      - "D:/CMake/bin/"
+      - "D:/ninja-win/"
+      - "C:/Users/16850/.cargo/bin/"
+      - "C:/Users/16850/AppData/Local/Programs/Trae CN/bin/"
+      - "C:/Users/16850/.local/bin/"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/16850/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/16850/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/16850/AppData/Roaming/npm/"
+      - "C:/tools/dart-sdk/bin/"
+      - "C:/Users/16850/AppData/Local/Pub/Cache/bin/"
+      - "C:/Users/16850/AppData/Local/Pandoc/"
+      - "D:/AIoT IDE/bin/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "D:\\flutter_windows_3.44.2-stable\\flutter\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\vcpkg"
+        - "D:\\CMake\\bin"
+        - "D:\\ninja-win"
+        - "C:\\Users\\16850\\.cargo\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Trae CN\\bin"
+        - "C:\\Users\\16850\\.local\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Python313"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\16850\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\16850\\AppData\\Roaming\\npm"
+        - "C:\\tools\\dart-sdk\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Pandoc"
+        - "D:\\AIoT IDE\\bin"
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/16850/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "D:/flutter_windows_3.44.2-stable/flutter/bin/"
+      - "D:/mingw64/bin/"
+      - "D:/vcpkg/"
+      - "D:/CMake/bin/"
+      - "D:/ninja-win/"
+      - "C:/Users/16850/.cargo/bin/"
+      - "C:/Users/16850/AppData/Local/Programs/Trae CN/bin/"
+      - "C:/Users/16850/.local/bin/"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/16850/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/16850/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/16850/AppData/Roaming/npm/"
+      - "C:/tools/dart-sdk/bin/"
+      - "C:/Users/16850/AppData/Local/Pub/Cache/bin/"
+      - "C:/Users/16850/AppData/Local/Pandoc/"
+      - "D:/AIoT IDE/bin/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Users/16850/bin/lld-link.com"
+      - "C:/Users/16850/bin/lld-link.exe"
+      - "C:/Users/16850/bin/lld-link"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.com"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.exe"
+      - "C:/Program Files/Git/mingw64/bin/lld-link"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/local/bin/lld-link"
+      - "C:/Program Files/Git/usr/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "D:/flutter_windows_3.44.2-stable/flutter/bin/lld-link.com"
+      - "D:/flutter_windows_3.44.2-stable/flutter/bin/lld-link.exe"
+      - "D:/flutter_windows_3.44.2-stable/flutter/bin/lld-link"
+      - "D:/mingw64/bin/lld-link.com"
+      - "D:/mingw64/bin/lld-link.exe"
+      - "D:/mingw64/bin/lld-link"
+      - "D:/vcpkg/lld-link.com"
+      - "D:/vcpkg/lld-link.exe"
+      - "D:/vcpkg/lld-link"
+      - "D:/CMake/bin/lld-link.com"
+      - "D:/CMake/bin/lld-link.exe"
+      - "D:/CMake/bin/lld-link"
+      - "D:/ninja-win/lld-link.com"
+      - "D:/ninja-win/lld-link.exe"
+      - "D:/ninja-win/lld-link"
+      - "C:/Users/16850/.cargo/bin/lld-link.com"
+      - "C:/Users/16850/.cargo/bin/lld-link.exe"
+      - "C:/Users/16850/.cargo/bin/lld-link"
+      - "C:/Users/16850/AppData/Local/Programs/Trae CN/bin/lld-link.com"
+      - "C:/Users/16850/AppData/Local/Programs/Trae CN/bin/lld-link.exe"
+      - "C:/Users/16850/AppData/Local/Programs/Trae CN/bin/lld-link"
+      - "C:/Users/16850/.local/bin/lld-link.com"
+      - "C:/Users/16850/.local/bin/lld-link.exe"
+      - "C:/Users/16850/.local/bin/lld-link"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/16850/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/16850/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/16850/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/16850/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/16850/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/16850/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/16850/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/16850/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/16850/AppData/Roaming/npm/lld-link"
+      - "C:/tools/dart-sdk/bin/lld-link.com"
+      - "C:/tools/dart-sdk/bin/lld-link.exe"
+      - "C:/tools/dart-sdk/bin/lld-link"
+      - "C:/Users/16850/AppData/Local/Pub/Cache/bin/lld-link.com"
+      - "C:/Users/16850/AppData/Local/Pub/Cache/bin/lld-link.exe"
+      - "C:/Users/16850/AppData/Local/Pub/Cache/bin/lld-link"
+      - "C:/Users/16850/AppData/Local/Pandoc/lld-link.com"
+      - "C:/Users/16850/AppData/Local/Pandoc/lld-link.exe"
+      - "C:/Users/16850/AppData/Local/Pandoc/lld-link"
+      - "D:/AIoT IDE/bin/lld-link.com"
+      - "D:/AIoT IDE/bin/lld-link.exe"
+      - "D:/AIoT IDE/bin/lld-link"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "D:\\flutter_windows_3.44.2-stable\\flutter\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\vcpkg"
+        - "D:\\CMake\\bin"
+        - "D:\\ninja-win"
+        - "C:\\Users\\16850\\.cargo\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Trae CN\\bin"
+        - "C:\\Users\\16850\\.local\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Python313"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\16850\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\16850\\AppData\\Roaming\\npm"
+        - "C:\\tools\\dart-sdk\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Pandoc"
+        - "D:\\AIoT IDE\\bin"
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/16850/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "D:/flutter_windows_3.44.2-stable/flutter/bin/"
+      - "D:/mingw64/bin/"
+      - "D:/vcpkg/"
+      - "D:/CMake/bin/"
+      - "D:/ninja-win/"
+      - "C:/Users/16850/.cargo/bin/"
+      - "C:/Users/16850/AppData/Local/Programs/Trae CN/bin/"
+      - "C:/Users/16850/.local/bin/"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/16850/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/16850/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/16850/AppData/Roaming/npm/"
+      - "C:/tools/dart-sdk/bin/"
+      - "C:/Users/16850/AppData/Local/Pub/Cache/bin/"
+      - "C:/Users/16850/AppData/Local/Pandoc/"
+      - "D:/AIoT IDE/bin/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "D:\\flutter_windows_3.44.2-stable\\flutter\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\vcpkg"
+        - "D:\\CMake\\bin"
+        - "D:\\ninja-win"
+        - "C:\\Users\\16850\\.cargo\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Trae CN\\bin"
+        - "C:\\Users\\16850\\.local\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Python313"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\16850\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\16850\\AppData\\Roaming\\npm"
+        - "C:\\tools\\dart-sdk\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Pandoc"
+        - "D:\\AIoT IDE\\bin"
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/16850/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "D:/flutter_windows_3.44.2-stable/flutter/bin/"
+      - "D:/mingw64/bin/"
+      - "D:/vcpkg/"
+      - "D:/CMake/bin/"
+      - "D:/ninja-win/"
+      - "C:/Users/16850/.cargo/bin/"
+      - "C:/Users/16850/AppData/Local/Programs/Trae CN/bin/"
+      - "C:/Users/16850/.local/bin/"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/16850/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/16850/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/16850/AppData/Roaming/npm/"
+      - "C:/tools/dart-sdk/bin/"
+      - "C:/Users/16850/AppData/Local/Pub/Cache/bin/"
+      - "C:/Users/16850/AppData/Local/Pandoc/"
+      - "D:/AIoT IDE/bin/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "C:/Users/16850/bin/mt.com"
+      - "C:/Users/16850/bin/mt.exe"
+      - "C:/Users/16850/bin/mt"
+      - "C:/Program Files/Git/mingw64/bin/mt.com"
+      - "C:/Program Files/Git/mingw64/bin/mt.exe"
+      - "C:/Program Files/Git/mingw64/bin/mt"
+      - "C:/Program Files/Git/usr/local/bin/mt.com"
+      - "C:/Program Files/Git/usr/local/bin/mt.exe"
+      - "C:/Program Files/Git/usr/local/bin/mt"
+      - "C:/Program Files/Git/usr/bin/mt.com"
+      - "C:/Program Files/Git/usr/bin/mt.exe"
+      - "C:/Program Files/Git/usr/bin/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/ProgramData/chocolatey/bin/mt.com"
+      - "C:/ProgramData/chocolatey/bin/mt.exe"
+      - "C:/ProgramData/chocolatey/bin/mt"
+      - "D:/flutter_windows_3.44.2-stable/flutter/bin/mt.com"
+      - "D:/flutter_windows_3.44.2-stable/flutter/bin/mt.exe"
+      - "D:/flutter_windows_3.44.2-stable/flutter/bin/mt"
+      - "D:/mingw64/bin/mt.com"
+      - "D:/mingw64/bin/mt.exe"
+      - "D:/mingw64/bin/mt"
+      - "D:/vcpkg/mt.com"
+      - "D:/vcpkg/mt.exe"
+      - "D:/vcpkg/mt"
+      - "D:/CMake/bin/mt.com"
+      - "D:/CMake/bin/mt.exe"
+      - "D:/CMake/bin/mt"
+      - "D:/ninja-win/mt.com"
+      - "D:/ninja-win/mt.exe"
+      - "D:/ninja-win/mt"
+      - "C:/Users/16850/.cargo/bin/mt.com"
+      - "C:/Users/16850/.cargo/bin/mt.exe"
+      - "C:/Users/16850/.cargo/bin/mt"
+      - "C:/Users/16850/AppData/Local/Programs/Trae CN/bin/mt.com"
+      - "C:/Users/16850/AppData/Local/Programs/Trae CN/bin/mt.exe"
+      - "C:/Users/16850/AppData/Local/Programs/Trae CN/bin/mt"
+      - "C:/Users/16850/.local/bin/mt.com"
+      - "C:/Users/16850/.local/bin/mt.exe"
+      - "C:/Users/16850/.local/bin/mt"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/Scripts/mt.com"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/Scripts/mt.exe"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/Scripts/mt"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/mt.com"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/mt.exe"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/mt"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Launcher/mt"
+      - "C:/Users/16850/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/16850/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/16850/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/16850/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/16850/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/16850/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/16850/AppData/Roaming/npm/mt.com"
+      - "C:/Users/16850/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/16850/AppData/Roaming/npm/mt"
+      - "C:/tools/dart-sdk/bin/mt.com"
+      - "C:/tools/dart-sdk/bin/mt.exe"
+      - "C:/tools/dart-sdk/bin/mt"
+      - "C:/Users/16850/AppData/Local/Pub/Cache/bin/mt.com"
+      - "C:/Users/16850/AppData/Local/Pub/Cache/bin/mt.exe"
+      - "C:/Users/16850/AppData/Local/Pub/Cache/bin/mt"
+      - "C:/Users/16850/AppData/Local/Pandoc/mt.com"
+      - "C:/Users/16850/AppData/Local/Pandoc/mt.exe"
+      - "C:/Users/16850/AppData/Local/Pandoc/mt"
+      - "D:/AIoT IDE/bin/mt.com"
+      - "D:/AIoT IDE/bin/mt.exe"
+      - "D:/AIoT IDE/bin/mt"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/mt.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/mt.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/mt"
+      - "C:/Program Files/Git/usr/bin/core_perl/mt.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/mt.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "D:\\flutter_windows_3.44.2-stable\\flutter\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\vcpkg"
+        - "D:\\CMake\\bin"
+        - "D:\\ninja-win"
+        - "C:\\Users\\16850\\.cargo\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Trae CN\\bin"
+        - "C:\\Users\\16850\\.local\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Python313"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\16850\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\16850\\AppData\\Roaming\\npm"
+        - "C:\\tools\\dart-sdk\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Pandoc"
+        - "D:\\AIoT IDE\\bin"
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/16850/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "D:/flutter_windows_3.44.2-stable/flutter/bin/"
+      - "D:/mingw64/bin/"
+      - "D:/vcpkg/"
+      - "D:/CMake/bin/"
+      - "D:/ninja-win/"
+      - "C:/Users/16850/.cargo/bin/"
+      - "C:/Users/16850/AppData/Local/Programs/Trae CN/bin/"
+      - "C:/Users/16850/.local/bin/"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/16850/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/16850/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/16850/AppData/Roaming/npm/"
+      - "C:/tools/dart-sdk/bin/"
+      - "C:/Users/16850/AppData/Local/Pub/Cache/bin/"
+      - "C:/Users/16850/AppData/Local/Pandoc/"
+      - "D:/AIoT IDE/bin/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "D:\\flutter_windows_3.44.2-stable\\flutter\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\vcpkg"
+        - "D:\\CMake\\bin"
+        - "D:\\ninja-win"
+        - "C:\\Users\\16850\\.cargo\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Trae CN\\bin"
+        - "C:\\Users\\16850\\.local\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Python313"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\16850\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\16850\\AppData\\Roaming\\npm"
+        - "C:\\tools\\dart-sdk\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Pandoc"
+        - "D:\\AIoT IDE\\bin"
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/CMake/share/cmake-4.4/Modules/"
+    found: "D:/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "D:\\flutter_windows_3.44.2-stable\\flutter\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\vcpkg"
+        - "D:\\CMake\\bin"
+        - "D:\\ninja-win"
+        - "C:\\Users\\16850\\.cargo\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Trae CN\\bin"
+        - "C:\\Users\\16850\\.local\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Python313"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\16850\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\16850\\AppData\\Roaming\\npm"
+        - "C:\\tools\\dart-sdk\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Pandoc"
+        - "D:\\AIoT IDE\\bin"
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.40+3e7442088
+      鐢熸垚鍚姩鏃堕棿涓?2026/7/6 0:16:43銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\efly\\src-lib\\tools\\build\\CMakeFiles\\4.4.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\efly\\src-lib\\tools\\build\\CMakeFiles\\4.4.0-rc3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淒:\\efly\\src-lib\\tools\\build\\CMakeFiles\\4.4.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:00.72
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/efly/src-lib/tools/build/CMakeFiles/4.4.0-rc3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/16850/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "D:/flutter_windows_3.44.2-stable/flutter/bin/"
+      - "D:/mingw64/bin/"
+      - "D:/vcpkg/"
+      - "D:/CMake/bin/"
+      - "D:/ninja-win/"
+      - "C:/Users/16850/.cargo/bin/"
+      - "C:/Users/16850/AppData/Local/Programs/Trae CN/bin/"
+      - "C:/Users/16850/.local/bin/"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/16850/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/16850/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/16850/AppData/Roaming/npm/"
+      - "C:/tools/dart-sdk/bin/"
+      - "C:/Users/16850/AppData/Local/Pub/Cache/bin/"
+      - "C:/Users/16850/AppData/Local/Pandoc/"
+      - "D:/AIoT IDE/bin/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Users/16850/bin/lld-link.com"
+      - "C:/Users/16850/bin/lld-link.exe"
+      - "C:/Users/16850/bin/lld-link"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.com"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.exe"
+      - "C:/Program Files/Git/mingw64/bin/lld-link"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/local/bin/lld-link"
+      - "C:/Program Files/Git/usr/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "D:/flutter_windows_3.44.2-stable/flutter/bin/lld-link.com"
+      - "D:/flutter_windows_3.44.2-stable/flutter/bin/lld-link.exe"
+      - "D:/flutter_windows_3.44.2-stable/flutter/bin/lld-link"
+      - "D:/mingw64/bin/lld-link.com"
+      - "D:/mingw64/bin/lld-link.exe"
+      - "D:/mingw64/bin/lld-link"
+      - "D:/vcpkg/lld-link.com"
+      - "D:/vcpkg/lld-link.exe"
+      - "D:/vcpkg/lld-link"
+      - "D:/CMake/bin/lld-link.com"
+      - "D:/CMake/bin/lld-link.exe"
+      - "D:/CMake/bin/lld-link"
+      - "D:/ninja-win/lld-link.com"
+      - "D:/ninja-win/lld-link.exe"
+      - "D:/ninja-win/lld-link"
+      - "C:/Users/16850/.cargo/bin/lld-link.com"
+      - "C:/Users/16850/.cargo/bin/lld-link.exe"
+      - "C:/Users/16850/.cargo/bin/lld-link"
+      - "C:/Users/16850/AppData/Local/Programs/Trae CN/bin/lld-link.com"
+      - "C:/Users/16850/AppData/Local/Programs/Trae CN/bin/lld-link.exe"
+      - "C:/Users/16850/AppData/Local/Programs/Trae CN/bin/lld-link"
+      - "C:/Users/16850/.local/bin/lld-link.com"
+      - "C:/Users/16850/.local/bin/lld-link.exe"
+      - "C:/Users/16850/.local/bin/lld-link"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/16850/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/16850/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/16850/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/16850/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/16850/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/16850/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/16850/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/16850/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/16850/AppData/Roaming/npm/lld-link"
+      - "C:/tools/dart-sdk/bin/lld-link.com"
+      - "C:/tools/dart-sdk/bin/lld-link.exe"
+      - "C:/tools/dart-sdk/bin/lld-link"
+      - "C:/Users/16850/AppData/Local/Pub/Cache/bin/lld-link.com"
+      - "C:/Users/16850/AppData/Local/Pub/Cache/bin/lld-link.exe"
+      - "C:/Users/16850/AppData/Local/Pub/Cache/bin/lld-link"
+      - "C:/Users/16850/AppData/Local/Pandoc/lld-link.com"
+      - "C:/Users/16850/AppData/Local/Pandoc/lld-link.exe"
+      - "C:/Users/16850/AppData/Local/Pandoc/lld-link"
+      - "D:/AIoT IDE/bin/lld-link.com"
+      - "D:/AIoT IDE/bin/lld-link.exe"
+      - "D:/AIoT IDE/bin/lld-link"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "D:\\flutter_windows_3.44.2-stable\\flutter\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\vcpkg"
+        - "D:\\CMake\\bin"
+        - "D:\\ninja-win"
+        - "C:\\Users\\16850\\.cargo\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Trae CN\\bin"
+        - "C:\\Users\\16850\\.local\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Python313"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\16850\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\16850\\AppData\\Roaming\\npm"
+        - "C:\\tools\\dart-sdk\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Pandoc"
+        - "D:\\AIoT IDE\\bin"
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "D:/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "D:/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Users/16850/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "D:/flutter_windows_3.44.2-stable/flutter/bin/"
+      - "D:/mingw64/bin/"
+      - "D:/vcpkg/"
+      - "D:/CMake/bin/"
+      - "D:/ninja-win/"
+      - "C:/Users/16850/.cargo/bin/"
+      - "C:/Users/16850/AppData/Local/Programs/Trae CN/bin/"
+      - "C:/Users/16850/.local/bin/"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/16850/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/16850/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/16850/AppData/Roaming/npm/"
+      - "C:/tools/dart-sdk/bin/"
+      - "C:/Users/16850/AppData/Local/Pub/Cache/bin/"
+      - "C:/Users/16850/AppData/Local/Pandoc/"
+      - "D:/AIoT IDE/bin/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/CMake/bin/"
+      - "D:/CMake/sbin/"
+      - "D:/CMake/"
+      - "C:/Program Files/efly-tools/bin/"
+      - "C:/Program Files/efly-tools/sbin/"
+      - "C:/Program Files/efly-tools/"
+    searched_directories:
+      - "C:/Users/16850/bin/rc.com"
+      - "C:/Users/16850/bin/rc.exe"
+      - "C:/Users/16850/bin/rc"
+      - "C:/Program Files/Git/mingw64/bin/rc.com"
+      - "C:/Program Files/Git/mingw64/bin/rc.exe"
+      - "C:/Program Files/Git/mingw64/bin/rc"
+      - "C:/Program Files/Git/usr/local/bin/rc.com"
+      - "C:/Program Files/Git/usr/local/bin/rc.exe"
+      - "C:/Program Files/Git/usr/local/bin/rc"
+      - "C:/Program Files/Git/usr/bin/rc.com"
+      - "C:/Program Files/Git/usr/bin/rc.exe"
+      - "C:/Program Files/Git/usr/bin/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/ProgramData/chocolatey/bin/rc.com"
+      - "C:/ProgramData/chocolatey/bin/rc.exe"
+      - "C:/ProgramData/chocolatey/bin/rc"
+      - "D:/flutter_windows_3.44.2-stable/flutter/bin/rc.com"
+      - "D:/flutter_windows_3.44.2-stable/flutter/bin/rc.exe"
+      - "D:/flutter_windows_3.44.2-stable/flutter/bin/rc"
+      - "D:/mingw64/bin/rc.com"
+      - "D:/mingw64/bin/rc.exe"
+      - "D:/mingw64/bin/rc"
+      - "D:/vcpkg/rc.com"
+      - "D:/vcpkg/rc.exe"
+      - "D:/vcpkg/rc"
+      - "D:/CMake/bin/rc.com"
+      - "D:/CMake/bin/rc.exe"
+      - "D:/CMake/bin/rc"
+      - "D:/ninja-win/rc.com"
+      - "D:/ninja-win/rc.exe"
+      - "D:/ninja-win/rc"
+      - "C:/Users/16850/.cargo/bin/rc.com"
+      - "C:/Users/16850/.cargo/bin/rc.exe"
+      - "C:/Users/16850/.cargo/bin/rc"
+      - "C:/Users/16850/AppData/Local/Programs/Trae CN/bin/rc.com"
+      - "C:/Users/16850/AppData/Local/Programs/Trae CN/bin/rc.exe"
+      - "C:/Users/16850/AppData/Local/Programs/Trae CN/bin/rc"
+      - "C:/Users/16850/.local/bin/rc.com"
+      - "C:/Users/16850/.local/bin/rc.exe"
+      - "C:/Users/16850/.local/bin/rc"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/Scripts/rc.com"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/Scripts/rc.exe"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/Scripts/rc"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/rc.com"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/rc.exe"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Python313/rc"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/16850/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/16850/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/16850/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/16850/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/16850/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/16850/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/16850/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/16850/AppData/Roaming/npm/rc.com"
+      - "C:/Users/16850/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/16850/AppData/Roaming/npm/rc"
+      - "C:/tools/dart-sdk/bin/rc.com"
+      - "C:/tools/dart-sdk/bin/rc.exe"
+      - "C:/tools/dart-sdk/bin/rc"
+      - "C:/Users/16850/AppData/Local/Pub/Cache/bin/rc.com"
+      - "C:/Users/16850/AppData/Local/Pub/Cache/bin/rc.exe"
+      - "C:/Users/16850/AppData/Local/Pub/Cache/bin/rc"
+      - "C:/Users/16850/AppData/Local/Pandoc/rc.com"
+      - "C:/Users/16850/AppData/Local/Pandoc/rc.exe"
+      - "C:/Users/16850/AppData/Local/Pandoc/rc"
+      - "D:/AIoT IDE/bin/rc.com"
+      - "D:/AIoT IDE/bin/rc.exe"
+      - "D:/AIoT IDE/bin/rc"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/rc.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/rc.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/rc"
+      - "C:/Program Files/Git/usr/bin/core_perl/rc.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/rc.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "D:/CMake/bin/rc.com"
+      - "D:/CMake/bin/rc.exe"
+      - "D:/CMake/bin/rc"
+      - "D:/CMake/sbin/rc.com"
+      - "D:/CMake/sbin/rc.exe"
+      - "D:/CMake/sbin/rc"
+      - "D:/CMake/rc.com"
+      - "D:/CMake/rc.exe"
+      - "D:/CMake/rc"
+      - "C:/Program Files/efly-tools/bin/rc.com"
+      - "C:/Program Files/efly-tools/bin/rc.exe"
+      - "C:/Program Files/efly-tools/bin/rc"
+      - "C:/Program Files/efly-tools/sbin/rc.com"
+      - "C:/Program Files/efly-tools/sbin/rc.exe"
+      - "C:/Program Files/efly-tools/sbin/rc"
+      - "C:/Program Files/efly-tools/rc.com"
+      - "C:/Program Files/efly-tools/rc.exe"
+      - "C:/Program Files/efly-tools/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "D:\\flutter_windows_3.44.2-stable\\flutter\\bin"
+        - "D:\\mingw64\\bin"
+        - "D:\\vcpkg"
+        - "D:\\CMake\\bin"
+        - "D:\\ninja-win"
+        - "C:\\Users\\16850\\.cargo\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Trae CN\\bin"
+        - "C:\\Users\\16850\\.local\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Python313"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\16850\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\16850\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\16850\\AppData\\Roaming\\npm"
+        - "C:\\tools\\dart-sdk\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\Users\\16850\\AppData\\Local\\Pandoc"
+        - "D:\\AIoT IDE\\bin"
+        - "C:\\Users\\16850\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/efly-tools"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/CMake"
+        - "C:/Program Files/efly-tools"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/efly/src-lib/tools/build/CMakeFiles/CMakeScratch/TryCompile-3ol3ck"
+      binary: "D:/efly/src-lib/tools/build/CMakeFiles/CMakeScratch/TryCompile-3ol3ck"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'D:/efly/src-lib/tools/build/CMakeFiles/CMakeScratch/TryCompile-3ol3ck'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2a8bc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.40+3e7442088
+        鐢熸垚鍚姩鏃堕棿涓?2026/7/6 0:16:44銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\efly\\src-lib\\tools\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ol3ck\\cmTC_2a8bc.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\efly\\src-lib\\tools\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ol3ck\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_2a8bc.dir\\Debug\\cmTC_2a8bc.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_2a8bc.dir\\Debug\\cmTC_2a8bc.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_2a8bc.dir\\Debug\\cmTC_2a8bc.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2a8bc.dir\\Debug\\\\" /Fd"cmTC_2a8bc.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35228 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2a8bc.dir\\Debug\\\\" /Fd"cmTC_2a8bc.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\efly\\src-lib\\tools\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ol3ck\\Debug\\cmTC_2a8bc.exe" /INCREMENTAL /ILK:"cmTC_2a8bc.dir\\Debug\\cmTC_2a8bc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/efly/src-lib/tools/build/CMakeFiles/CMakeScratch/TryCompile-3ol3ck/Debug/cmTC_2a8bc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/efly/src-lib/tools/build/CMakeFiles/CMakeScratch/TryCompile-3ol3ck/Debug/cmTC_2a8bc.lib" /MACHINE:X64  /machine:x64 cmTC_2a8bc.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_2a8bc.vcxproj -> D:\\efly\\src-lib\\tools\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ol3ck\\Debug\\cmTC_2a8bc.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_2a8bc.dir\\Debug\\cmTC_2a8bc.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_2a8bc.dir\\Debug\\cmTC_2a8bc.tlog\\cmTC_2a8bc.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\efly\\src-lib\\tools\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ol3ck\\cmTC_2a8bc.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.56
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\efly\\src-lib\\tools\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ol3ck\\Debug\\cmTC_2a8bc.exe" /INCREMENTAL /ILK:"cmTC_2a8bc.dir\\Debug\\cmTC_2a8bc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/efly/src-lib/tools/build/CMakeFiles/CMakeScratch/TryCompile-3ol3ck/Debug/cmTC_2a8bc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/efly/src-lib/tools/build/CMakeFiles/CMakeScratch/TryCompile-3ol3ck/Debug/cmTC_2a8bc.lib" /MACHINE:X64  /machine:x64 cmTC_2a8bc.dir\\Debug\\CMakeCCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35228.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/efly/src-lib/tools/build/CMakeFiles/CMakeScratch/TryCompile-08808f"
+      binary: "D:/efly/src-lib/tools/build/CMakeFiles/CMakeScratch/TryCompile-08808f"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'D:/efly/src-lib/tools/build/CMakeFiles/CMakeScratch/TryCompile-08808f'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2fc8f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.40+3e7442088
+        鐢熸垚鍚姩鏃堕棿涓?2026/7/6 0:16:45銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\efly\\src-lib\\tools\\build\\CMakeFiles\\CMakeScratch\\TryCompile-08808f\\cmTC_2fc8f.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\efly\\src-lib\\tools\\build\\CMakeFiles\\CMakeScratch\\TryCompile-08808f\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_2fc8f.dir\\Debug\\cmTC_2fc8f.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_2fc8f.dir\\Debug\\cmTC_2fc8f.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_2fc8f.dir\\Debug\\cmTC_2fc8f.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_2fc8f.dir\\Debug\\\\" /Fd"cmTC_2fc8f.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35228 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_2fc8f.dir\\Debug\\\\" /Fd"cmTC_2fc8f.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\efly\\src-lib\\tools\\build\\CMakeFiles\\CMakeScratch\\TryCompile-08808f\\Debug\\cmTC_2fc8f.exe" /INCREMENTAL /ILK:"cmTC_2fc8f.dir\\Debug\\cmTC_2fc8f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/efly/src-lib/tools/build/CMakeFiles/CMakeScratch/TryCompile-08808f/Debug/cmTC_2fc8f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/efly/src-lib/tools/build/CMakeFiles/CMakeScratch/TryCompile-08808f/Debug/cmTC_2fc8f.lib" /MACHINE:X64  /machine:x64 cmTC_2fc8f.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_2fc8f.vcxproj -> D:\\efly\\src-lib\\tools\\build\\CMakeFiles\\CMakeScratch\\TryCompile-08808f\\Debug\\cmTC_2fc8f.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_2fc8f.dir\\Debug\\cmTC_2fc8f.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_2fc8f.dir\\Debug\\cmTC_2fc8f.tlog\\cmTC_2fc8f.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\efly\\src-lib\\tools\\build\\CMakeFiles\\CMakeScratch\\TryCompile-08808f\\cmTC_2fc8f.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.60
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\efly\\src-lib\\tools\\build\\CMakeFiles\\CMakeScratch\\TryCompile-08808f\\Debug\\cmTC_2fc8f.exe" /INCREMENTAL /ILK:"cmTC_2fc8f.dir\\Debug\\cmTC_2fc8f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/efly/src-lib/tools/build/CMakeFiles/CMakeScratch/TryCompile-08808f/Debug/cmTC_2fc8f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/efly/src-lib/tools/build/CMakeFiles/CMakeScratch/TryCompile-08808f/Debug/cmTC_2fc8f.lib" /MACHINE:X64  /machine:x64 cmTC_2fc8f.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "D:/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35228.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\efly\src-lib\test\build\CMakeFiles\a55b56d3041df2836c763139b77cd1ab\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{220A48A9-AFBE-37EA-94C1-2306699F330C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
